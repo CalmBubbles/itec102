@@ -1,5 +1,8 @@
-def idk ():
-    print("idk")
+# MODULE 11: FUNCTIONS
+# 1: Defining a useless function
+# Diff: Easy
 
-idk()
-idk()
+def uselessFunc ():
+    pass
+
+uselessFunc() # this does absolutely nothing lmao
