@@ -17,7 +17,7 @@ def addDef ():
     line()
 
     print("Entry: ", end = "")
-    entry = input()
+    entry = input().strip()
 
     print("Definition: ", end = "")
     defin = input()
@@ -27,6 +27,11 @@ def addDef ():
     cont()
 
 def rmDef ():
+    if len(daDic) == 0:
+        print("NO DEFINITIONS TO REMOVE")
+        cont()
+        return
+
     print("\nREMOVE DEFINITION")
     line()
 

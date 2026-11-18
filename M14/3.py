@@ -1,5 +1,5 @@
 # MODULE 14: FILE STREAMING
-# 4: Self destruct
+# 3: Self destruct
 # Diff: Intermediate
 
 def yousuckatcodingsomuchpythonhangeditself():

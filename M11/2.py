@@ -1,36 +1,41 @@
 # MODULE 11: FUNCTIONS
-# 3: Functional functions
+# 2: Defining a function
 # Diff: Easy
 
-# What are functions for?
-# Well, they're mostly used on things that are repetatative
-# And to make things cleaner and organized
+# Ok, last example was useless
+# Let's actually do something this time
 
-def line (length: int = 10):
-    text = "".join(["-" for i in range(length)])
-    print(text)
+# ----- Make em
 
-def c2f (c: str):
-    return c * 9 / 5 + 32
+# This
+def printsSomething ():
+    print("something")
+
+# This
+def returnsSomethin ():
+    return "somethin"
+
+# This
+def takesSomething (something):
+    print(f"took: {something}")
+
+# This
+def takesAndReturnsSomething (something):
+    return f"took: {something}"
 
 
+# ----- Call em
 
-line(40)
-print("°Celcius to °Fahrenheit")
-line(20)
-print("From?: ", end = "")
-fr = float(input())
-print("To?: ", end = "")
-to = float(input())
-print("Step?: ", end = "")
-by = float(input())
-line()
-print()
+printsSomething()
 
-i = fr
+gotSomething = returnsSomethin()
+print(gotSomething)
 
-while i <= to:
-    print(f"{i} °C  =  {c2f(i):.2f} °F")
-    i += by
+takesSomething("SOMETHING")
 
-line(40)
+gotTookSomething = takesAndReturnsSomething("someThing")
+print(gotTookSomething)
+
+
+# By default a function returns `None`
+print(printsSomething())
