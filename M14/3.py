@@ -6,9 +6,9 @@ def yousuckatcodingsomuchpythonhangeditself():
     print("YOU SUCK")
     print("IM GONNA KMS")
 
-    with open("M14/4.py", "w") as file:
+    with open("M14/3.py", "w") as file:
         file.write("")
     
-    print("M14/4.py has been cleared...")
+    print("M14/3.py has been cleared...")
 
 yousuckatcodingsomuchpythonhangeditself()
