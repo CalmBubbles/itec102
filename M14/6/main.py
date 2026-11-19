@@ -10,7 +10,7 @@ def isValidAmount (val: str):
     except (ValueError, TypeError):
         return False
 
-def trunc (no):
+def trunc (no: float):
     return int(no * 100) / 100
 
 def line (length: int = 10):

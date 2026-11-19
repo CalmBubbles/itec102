@@ -2,7 +2,7 @@
 # 4: Text caser
 # Diff: Intermediate
 
-# NOTE: some sentences might break unintentionally, especially on abbr. and web.sites
+# NOTE: some sentences might break unintentionally, especially on abbr.
 
 shouldBreak = False
 breakers = (".", "!", "?")
@@ -14,13 +14,14 @@ with open("M14/4/input.txt", "r") as file:
     words = text.split(" ")
 
 for i in text:
-    if shouldBreak and not i.isspace():
-        shouldBreak = False
+    if shouldBreak == 1 and i.isspace(): shouldBreak = 2
+    elif shouldBreak == 2 and not i.isspace():
+        shouldBreak = 0
         sentences.append("")
 
     sentences[-1] += i
 
-    if not shouldBreak and i in breakers: shouldBreak = True
+    if shouldBreak == 0 and i in breakers: shouldBreak = 1
 
 with open("M14/4/output/Sentence case.txt", "w") as file:
     sentenceCase = "".join([t.capitalize() for t in sentences])
