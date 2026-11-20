@@ -2,7 +2,6 @@ from Loop import Loop
 import os;
 import keyboard
 import random
-import time as Time
 
 for i in range(150): keyboard.block_key(i)
 
