@@ -4,6 +4,11 @@ ok so uhhhhhhh, this thing has a lot of soul and personality put into it. A bunc
 
 Here's some notes....
 
+
+> [!NOTE]<br>
+> The following will not apply to the "PROJ" folder
+
+
 > [!IMPORTANT]<br>
 > YOU MUST OPEN THE PROJECT AS A WHOLE<br>
 > THE EXAMPLES IN MODULE 14 REQUIRES IT FOR PROPER FILE HANDLING
