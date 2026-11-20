@@ -5,7 +5,7 @@ ok so uhhhhhhh, this thing has a lot of soul and personality put into it. A bunc
 Here's some notes....
 
 > [!IMPORTANT]<br>
-> YOU MUST CD/OPEN THE PROJECT AS A WHOLE<br>
+> YOU MUST OPEN THE PROJECT AS A WHOLE<br>
 > THE EXAMPLES IN MODULE 14 REQUIRES IT FOR PROPER FILE HANDLING
 > 
 > On code editors:<br>
