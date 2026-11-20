@@ -23,7 +23,7 @@ Here's some notes....
 
 
 ### But why do that????
-Well, M14 WILL BREAK if it isn't set like that
+Well, MODULE 14 WILL BREAK if it isn't set like that
 
 
 Also
@@ -32,3 +32,16 @@ Also
 > 
 > Some parts were personalized DANGEROUSLY,<br>
 > ESPECIALLY on Module 14.
+
+
+> [!NOTE]<br>
+> Finished: 
+>  - M11
+>  - M13
+>  - M14
+>
+> Unfinished:
+> - M8
+> - M9
+> 
+> Yes i took most topics in our group LOLLL
