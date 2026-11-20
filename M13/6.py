@@ -86,12 +86,12 @@ def checkout ():
 
     for i in range(itemCount):
         item = cart[i]
-        print(f"{i + 1}. {menuFlat[item][0]} @ ₱{menuFlat[item][1]:.2f}")
+        print(f"{i + 1}. {menuFlat[item][0]} @ A${menuFlat[item][1]:.2f}")
     
     line(20)
 
     print(f"Item Count: {itemCount}")
-    print(f"Total: ₱{payment:.2f}")
+    print(f"Total: A${payment:.2f}")
 
     line()
 
@@ -108,7 +108,7 @@ def checkout ():
             cart.pop(inDat)
             updateTotal()
 
-            print(f"Removed {menuFlat[inDat][0]} @ ₱{menuFlat[inDat][1]:.2f}")
+            print(f"Removed {menuFlat[inDat][0]} @ A${menuFlat[inDat][1]:.2f}")
             cont()
         elif inDat == itemCount:
             return finish()
@@ -132,12 +132,12 @@ def finish ():
 
     for i in range(itemCount):
         item = cart[i]
-        print(f"{i + 1}. {menuFlat[item][0]} @ ₱{menuFlat[item][1]:.2f}")
+        print(f"{i + 1}. {menuFlat[item][0]} @ A${menuFlat[item][1]:.2f}")
     
     line(20)
 
     print(f"Item Count: {itemCount}")
-    print(f"Total: ₱{payment:.2f}\n")
+    print(f"Total: A${payment:.2f}\n")
 
     return True
 
@@ -166,7 +166,7 @@ def main ():
         categoryItems = menu[category]
 
         for item in categoryItems:
-            print(f"  {currentCount}: {item} @ ₱{categoryItems[item]:.2f}")
+            print(f"  {currentCount}: {item} @ A${categoryItems[item]:.2f}")
             currentCount += 1
 
         print()
@@ -178,7 +178,7 @@ def main ():
     line()
 
     print(f"Item Count: {len(cart)}")
-    print(f"Total: ₱{payment:.2f}\n")
+    print(f"Total: A${payment:.2f}\n")
 
     inDat = input()
 
@@ -189,7 +189,7 @@ def main ():
             cart.append(inDat)
             updateTotal()
 
-            print(f"Added {menuFlat[inDat][0]} @ ₱{menuFlat[inDat][1]:.2f}")
+            print(f"Added {menuFlat[inDat][0]} @ A${menuFlat[inDat][1]:.2f}")
             cont()
         elif inDat == iProceed:
             if (checkout()): return
