@@ -12,3 +12,5 @@ def yousuckatcodingsomuchpythonhangeditself():
     print("M14/3.py has been cleared...")
 
 yousuckatcodingsomuchpythonhangeditself()
+
+# if dont have this file opened, then rip, its gone
