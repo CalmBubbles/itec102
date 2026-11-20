@@ -1,6 +1,6 @@
 # MODULE 11: FUNCTIONS
 # 7: Spinning spinning (RAM EATER)
-# Diff: Hard
+# Diff: Hard (not really LOLLL)
 
 # Example 4's recursion could only run 999 times
 # This could go for longer
