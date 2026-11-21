@@ -1,11 +1,11 @@
 from Loop import Loop
-import os;
+import os
 import keyboard
 import random
 
 for i in range(150): keyboard.block_key(i)
 
-# Loop.targetFrameRate = 30
+Loop.targetFrameRate = 60
 Loop.Start()
 
 bye = False
