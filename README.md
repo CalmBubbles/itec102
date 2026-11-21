@@ -37,16 +37,3 @@ Also
 > 
 > Some parts were personalized DANGEROUSLY,<br>
 > ESPECIALLY on Module 14.
-
-
-> [!NOTE]<br>
-> Finished: 
->  - M11
->  - M13
->  - M14
->  - M9
->
-> Unfinished:
->  - M8
-> 
-> Yes i took most topics in our group LOLLL
